@@ -4,6 +4,13 @@
 // GENERAL
 @import 'general/general.scss';
 
+// COMPONENTS
+@import 'components/components.hero';
+@import 'components/components.campaign-overview';
+@import 'components/components.sign-petition';
+@import 'components/components.alternative-options';
+@import 'components/components.policat';
+
 // ELEMENTS
 @import 'elements/elements.fonts';
 @import 'elements/elements.buttons';

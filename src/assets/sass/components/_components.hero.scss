@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #HERO COMPONENT
+   ========================================================================== */
+
+.hero {
+    background-image: url('/src/assets/imgs/planet-hero.jpg');
+    background-origin: content-box;
+    background-position: bottom center;
+    background-size: contain;
+}
+
+.hero__caption {
+    font-size: 30px;
+    transform: rotate(-11deg) translateX(120px);
+}
+
+.hero__lockup {
+    transform: translateX(-100px);
+}
