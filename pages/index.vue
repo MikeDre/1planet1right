@@ -13,10 +13,10 @@
                 </div>
             </div>
             <div class="hero__cta uk-margin-large-bottom u-font-heading">
-                <a href="#campaign-overview" uk-scroll>
+                <a class="hero__cta--campaign" href="#campaign-overview" uk-scroll>
                     <button class="btn u-background-color-white u-color-primary u-uppercase uk-margin-small-left uk-margin-small-right">Campaign overview</button>
                 </a>
-                <a href="#sign-the-petition" uk-scroll>
+                <a class="hero__cta--petition" href="#sign-the-petition" uk-scroll>
                     <button class="btn u-background-color-secondary u-color-white u-uppercase uk-margin-small-left uk-margin-small-right">Sign the petition</button>
                 </a>
             </div>
@@ -64,11 +64,11 @@
                 <h5 class="uk-text-center u-color-primary uk-margin-medium-bottom"><strong>You can also sign the petition here:</strong></h5>
             </div>
             <div class="uk-grid uk-child-width-1-6@m uk-child-width-1-1 uk-flex uk-flex-center" uk-grid>
-                <div>
-                    <img src="~/assets/imgs/avaaz.png" alt="Change Org Logo">
+                <div class="uk-text-center">
+                    <img src="~/assets/imgs/avaaz.png" alt="Change Org Logo" class="alternative-option__logo">
                 </div>
-                <div>
-                    <img src="~/assets/imgs/change-org.png" alt="Change Org Logo">
+                <div class="uk-text-center">
+                    <img src="~/assets/imgs/change-org.png" alt="Change Org Logo" class="alternative-option__logo">
                 </div>
             </div>
         </div>
@@ -117,7 +117,9 @@
         <div class="uk-grid uk-child-width-1-2@m" uk-grid>
             <div>
                 <div class="uk-padding-large uk-text-left@m uk-text-center">
-                    <strong>This petition is supported by over 90 global organisations including:</strong>
+                    <div class="uk-margin-remove-top@m uk-margin-remove-bottom@m uk-margin-large-bottom">
+                        <strong>This petition is supported by over 90 global organisations including:</strong>
+                    </div>
                     <div class="uk-margin-large-top uk-margin-large-bottom">
                         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000; pause-on-hover: false">
                             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@m uk-grid">
@@ -198,6 +200,14 @@ export default {}
     }
 }
 
+.hero__cta--campaign {
+
+    @include mq($until: desk) {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
 .text-highlight {
     background-color: #ffd3006e;
     padding: 0 5px;
@@ -247,6 +257,13 @@ export default {}
         top: 0;
         transform: rotate(-1deg) translate3d(-10px, -20px, 0);
         width: 110%;
+    }
+}
+
+.alternative-option__logo {
+
+    @include mq($until: desk) {
+        max-width: 200px;
     }
 }
 </style>
