@@ -15,7 +15,7 @@
                             <button class="btn u-background-color-secondary u-color-white u-uppercase">Share on Twitter</button>
                         </a>
                     </div>
-                    <div class="uk-margin-small-bottom">
+                    <div class="uk-margin-medium-bottom">
                         <a href="#">
                             <button class="btn u-background-color-secondary u-color-white u-uppercase">Share via Email</button>
                         </a>

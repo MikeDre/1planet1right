@@ -7,7 +7,7 @@
             <div class="uk-grid uk-child-width-1-2@m" uk-grid>
                 <div></div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolr adipiscing elit, sed do eiusmod tempor incididunr adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolr adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolt ut labore et dolr adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <Policat />
                 </div>
             </div>
         </div>
