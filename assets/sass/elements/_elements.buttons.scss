@@ -7,3 +7,11 @@
  *
  */
 
+.btn {
+    border: 0;
+    clip-path: polygon(90% 0, 100% 18%, 98% 94%, 0 100%, 1% 0);
+    font-weight: 700;
+    font-family: $font-primary-bold;
+    font-size: 16px;
+    padding: 15px 25px;
+}
