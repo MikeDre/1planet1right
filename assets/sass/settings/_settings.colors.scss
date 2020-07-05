@@ -1,0 +1,51 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+/*
+*  BASE COLORS
+*/
+
+// Blue
+$blue: #0a263b;
+$light-blue: #2daee5;
+
+// Black
+$black: #000000;
+$black--off: #222222;
+
+// Grey
+$grey: #444444;
+$grey-light: #eeeeee;
+
+// White
+$white: #ffffff;
+$white--off: #eeeeee;
+
+/*
+*  COLORS THEME MAP
+*/
+
+$theme-colors: (
+
+    // Primary
+    'primary': $blue,
+
+    // Secondary
+    'secondary': $light-blue,
+
+    // Tertiary
+    // 'tertiary': $red,
+
+    // Highlight
+    'highlight': $light-blue,
+
+    // Black & White
+    'black': $black,
+    'black-off': $black--off,
+    'white': $white,
+    'white-off': $white--off,
+
+    // Text
+    'text-body': $black--off,
+);

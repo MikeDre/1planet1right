@@ -1,0 +1,44 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+/**
+ * Color helpers
+ */
+
+.u-color-white {
+    color: color('white');
+}
+
+.u-color-black {
+    color: color('black');
+}
+
+.u-color-primary {
+    color: color('primary') !important;
+}
+
+.u-color-secondary {
+    color: color('secondary') !important;
+}
+
+
+/**
+ * Background color helpers
+ */
+
+.u-background-color-primary {
+    background-color: color('primary');
+}
+
+.u-background-color-secondary {
+    background-color: color('secondary');
+}
+
+.u-background-color-white {
+    background-color: color('white');
+}
+
+.u-background-color-black {
+    background-color: color('black');
+}
