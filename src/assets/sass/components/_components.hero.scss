@@ -3,17 +3,45 @@
    ========================================================================== */
 
 .hero {
-    background-image: url('/src/assets/imgs/planet-hero.jpg');
+    background-image: url('../imgs/planet-hero.jpg');
     background-origin: content-box;
     background-position: bottom center;
     background-size: contain;
+
+    @include mq($until: desk) {
+        background-image: url('../imgs/planet-hero-mobile.jpg');
+        background-position: center 70%;
+    }
 }
 
 .hero__caption {
-    font-size: 30px;
+    font-size: 26px;
     transform: rotate(-11deg) translateX(120px);
+
+    @include mq($until: desk) {
+        transform: rotate(-11deg) translateX(0);
+    }
 }
 
 .hero__lockup {
     transform: translateX(-100px);
+
+    @include mq($until: desk) {
+        transform: translateX(0);
+    }
+}
+
+.hero__cta {
+
+    @include mq($until: desk) {
+        margin-top: 200px;
+    }
+}
+
+.hero__cta--campaign {
+
+    @include mq($until: desk) {
+        display: block;
+        margin-bottom: 10px;
+    }
 }

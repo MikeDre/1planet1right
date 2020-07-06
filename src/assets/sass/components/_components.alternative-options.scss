@@ -1,3 +1,26 @@
 /* ==========================================================================
    #ALTERNATIVE OPTIONS COMPONENT
    ========================================================================== */
+
+.alternative-option {
+    overflow-x: hidden;
+    position: relative;
+
+    &:before {
+        background-color: color('white');
+        content: '';
+        height: 50px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transform: rotate(-1deg) translate3d(-10px, -20px, 0);
+        width: 110%;
+    }
+}
+
+.alternative-option__logo {
+
+    @include mq($until: desk) {
+        max-width: 200px;
+    }
+}
