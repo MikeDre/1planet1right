@@ -15,10 +15,11 @@
 }
 
 .hero__caption {
-    font-size: 26px;
+    font-size: 40px;
     transform: rotate(-11deg) translateX(120px);
-
+    
     @include mq($until: desk) {
+        font-size: 30px;
         transform: rotate(-11deg) translateX(0);
     }
 }
