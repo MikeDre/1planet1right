@@ -15,3 +15,7 @@ h2 {
         font-size: 31px;
     }
 }
+
+.uk-link-toggle:focus .uk-link, .uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover {
+    color: inherit;
+}
