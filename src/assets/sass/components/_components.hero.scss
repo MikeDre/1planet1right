@@ -50,8 +50,10 @@
 .hero__photo-credit {
     color: rgba(color('white'), .5);
     padding: 20px 0 20px 30px;
-
+    margin-top: -80px;
+    
     @include mq($until: desk) {
+        margin-top: 0;
         padding: 0 0 20px 0;
         text-align: center;
     }
