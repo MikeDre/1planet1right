@@ -46,3 +46,13 @@
         margin-bottom: 10px;
     }
 }
+
+.hero__photo-credit {
+    color: rgba(color('white'), .5);
+    padding: 20px 0 20px 30px;
+
+    @include mq($until: desk) {
+        padding: 0 0 20px 0;
+        text-align: center;
+    }
+}
