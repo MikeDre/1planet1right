@@ -18,4 +18,16 @@
         transform: rotate(1deg) translate3d(-10px, -20px, 0);
         width: 110%;
     }
+
+    // &:after {
+    //     background-color: color('white');
+    //     bottom: -40px;
+    //     content: '';
+    //     height: 160px;
+    //     left: 0;
+    //     position: absolute;
+    //     transform: rotate(-1deg) translate3d(-10px, 50px, 0);
+    //     width: 110%;
+    //     z-index: 1;
+    // }
 }
